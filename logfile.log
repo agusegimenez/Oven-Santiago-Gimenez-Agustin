@@ -1,0 +1,30 @@
+[2024-02-22 23:37:53] [ ERROR] [OdontologoDaoH2:43] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-224]
+[2024-02-22 23:37:53] [ INFO ] [OdontologoDaoH2:48] Tuvimos un problema registrando al odontólogo.
+[2024-02-22 23:37:53] [ ERROR] [OdontologoDaoH2:49] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-224]
+[2024-02-22 23:37:54] [ INFO ] [OdontologoService:23] 
+[2024-02-22 23:38:36] [ ERROR] [OdontologoDaoH2:43] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-224]
+[2024-02-22 23:38:36] [ INFO ] [OdontologoDaoH2:48] Tuvimos un problema registrando al odontólogo.
+[2024-02-22 23:38:36] [ ERROR] [OdontologoDaoH2:49] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-224]
+[2024-02-22 23:38:36] [ INFO ] [OdontologoService:23] 
+[2024-02-22 23:39:34] [ ERROR] [OdontologoDaoH2:43] La base de datos puede que ya esté siendo utilizada: "C:/Users/aguse/test111.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/aguse/test111.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-02-22 23:39:34] [ ERROR] [OdontologoDaoH2:60] No se pudo cerrar la conexion: Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2024-02-22 23:39:34] [ INFO ] [OdontologoService:23] 
+[2024-02-22 23:41:27] [ INFO ] [OdontologoDaoH2:39] Se ha registrado al odontólogo: nombre = Santiago, apellido = Oven', numero de matricula = 1234
+[2024-02-22 23:41:27] [ INFO ] [OdontologoService:23] nombre = Santiago, apellido = Oven', numero de matricula = 1234
+[2024-02-22 23:45:53] [ INFO ] [OdontologoDaoH2:39] Se ha registrado al odontólogo: nombre = Santiago, apellido = Oven', numero de matricula = 1234
+[2024-02-22 23:45:53] [ INFO ] [OdontologoService:23] nombre = Santiago, apellido = Oven', numero de matricula = 1234
+[2024-02-22 23:47:47] [ INFO ] [OdontologoDaoH2:39] Se ha registrado al odontólogo: nombre = Santiago, apellido = Oven', numero de matricula = 1234
+[2024-02-22 23:47:47] [ INFO ] [OdontologoService:23] nombre = Santiago, apellido = Oven', numero de matricula = 1234
+[2024-02-22 23:47:47] [ INFO ] [OdontologoDaoMemoria:23] Odontólogo guardado: nombre = Agustin, apellido = Gimenez', numero de matricula = 1234
+[2024-02-22 23:47:47] [ INFO ] [OdontologoService:31] nombre = Agustin, apellido = Gimenez', numero de matricula = 1234
+[2024-02-22 23:48:25] [ INFO ] [OdontologoDaoH2:39] Se ha registrado al odontólogo: nombre = Santiago, apellido = Oven', numero de matricula = 1234
+[2024-02-22 23:48:25] [ INFO ] [OdontologoService:23] nombre = Santiago, apellido = Oven', numero de matricula = 1234
+[2024-02-22 23:48:25] [ INFO ] [OdontologoDaoMemoria:23] Odontólogo guardado: nombre = Agustin, apellido = Gimenez', numero de matricula = 1234
+[2024-02-22 23:48:25] [ INFO ] [OdontologoService:31] nombre = Agustin, apellido = Gimenez', numero de matricula = 1234
+[2024-02-22 23:49:22] [ INFO ] [OdontologoDaoH2:39] Se ha registrado al odontólogo: nombre = Santiago, apellido = Oven', numero de matricula = 1234
+[2024-02-22 23:49:22] [ INFO ] [OdontologoService:23] nombre = Santiago, apellido = Oven', numero de matricula = 1234
