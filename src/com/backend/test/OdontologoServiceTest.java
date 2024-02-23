@@ -8,6 +8,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.log4j.Logger;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -18,18 +20,18 @@ class OdontologoServiceTest {
     @Test
     void deberiaDevolverElListadoDeTodosLosOdontologosEnH2(){
         odontologoService = new OdontologoService(new OdontologoDaoH2());
-        Odontologo odontologo = new Odontologo(1234, "Santiago","Oven");
-        Odontologo odontologoRegistrado = odontologoService.registrarOdontologo(odontologo);
-        LOGGER.info(odontologoRegistrado);
-        Assertions.assertTrue(odontologoRegistrado.getId() != 0);
+        List<Odontologo> odontologoLista = odontologoService.listarOdontologos();
+        LOGGER.info(odontologoLista);
+        Assertions.assertTrue(odontologoLista != null);
     }
     @Test
     void deberiaDevolverElListadoDeTodosLosOdontologosEnMemoria(){
         odontologoService = new OdontologoService(new OdontologoDaoMemoria(new ArrayList<>()));
-        Odontologo odontologo = new Odontologo(1234, "Agustin","Gimenez");
-        Odontologo odontologoRegistrado = odontologoService.registrarOdontologo(odontologo);
-        LOGGER.info(odontologoRegistrado);
-        Assertions.assertTrue(odontologoRegistrado!=null);
+        Odontologo odontologo = new Odontologo(5555,"JuanPe","Rodriguez");
+        List<Odontologo> odontologoLista = odontologoService.listarOdontologos();
+        odontologoLista.add(odontologo);
+        LOGGER.info(odontologoLista);
+        Assertions.assertTrue(odontologoLista != null);
     }
 
 }

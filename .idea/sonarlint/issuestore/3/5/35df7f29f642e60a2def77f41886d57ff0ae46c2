@@ -1,6 +1,6 @@
 
-m	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÂ¬µ8Ì‘Ìİ1
+m	java:S116"QRename this field "LOGGER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÂ¬µ8áü–Ÿİ1
 U
-java:S3416"8Update this logger to use "OdontologoServiceTest.class".(ûÂ¬µ8Î‘Ìİ1
+java:S3416"8Update this logger to use "OdontologoServiceTest.class".(ûÂ¬µ8âü–Ÿİ1
 _
-java:S1128"=Remove this unused import 'org.junit.jupiter.api.Assertions'.(âè¨ùÿÿÿÿ8¦„øİ1
+java:S1128"=Remove this unused import 'org.junit.jupiter.api.Assertions'.(âè¨ùÿÿÿÿ8·Á›Ÿİ1
